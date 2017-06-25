@@ -1,0 +1,92 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #EDEFF0;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 500px;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  bottom: -50px;
+}
+
+#sidebar {
+    background-color: #384047;
+    position: fixed;
+    left: 0px;
+    top: 451px;
+    bottom: 0px;
+    width: 120px;
+    text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 30px;
+}
+
+#sidebar ul li{
+  margin-bottom: 30px;
+}
+
+#sidebar ul li a {
+  color: white;
+}
+
+.container-fluid{
+    width: 90%;
+    margin: 30px auto;
+}
+
+.navigation {
+  margin-top: 70px;
+}
+
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 700px;
+    margin-bottom: 20px;
+    margin: 50 auto;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+  .my-story{
+    width: 500px;
+    margin: 90 auto;
+  }
+
+  .education h5{
+    font-weight: 700;
+  }
+
+  .ed-linespace-1{
+    line-height: 1;
+  }
