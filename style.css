@@ -67,6 +67,11 @@ body{
   margin-top: 70px;
 }
 
+.navigation li a {
+  text-decoration: none;
+
+}
+
 
 .card {
     background: white;
@@ -83,7 +88,7 @@ body{
     margin: 90 auto;
   }
 
-  .education h5{
+  #education h5{
     font-weight: 700;
   }
 
