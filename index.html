@@ -15,21 +15,13 @@
     <img src="images/courtney.jpeg" class="avatar">
   </div>
 
-<!--   <div id="sidebar">
-    <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Skills</a></li>
-      <li><a href="#">Education</a></li>
-    </ul>
-  </div> -->
-
   <ul class="navigation list-inline text-center">
     <li><a href="#about-me">About</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#education">Education</a></li>
-    <li><a href="">Projects</a></li>
+    <li><a href="#projects">Projects</a></li>
     <li><a href="https://github.com/ctreweek" target="blank">Github</a></li>
-    <li><a href="https://www.linkedin.com/in/ctreweek" target="blank">Linked In</a></li>
+    <li><a href="https://www.linkedin.com/in/ctreweek" target="blank">LinkedIn</a></li>
   </ul>
 
   <div class="container-fluid">
@@ -42,42 +34,63 @@
      </div>
    </div>
 
-     <div class="card">
-      <div id="skills">
-       <h4><u>Skills</u></h4>
-       <p>Languages: Ruby, Javascript, HTML5, CSS/SCSS</p>
-       <p>Frameworks: Rails</p>
-       <p>Libraries: jQuery/AJAX, Bootstrap</p>
-       <p>Databases: Postgre SQL, ActiveRecord</p>
-       <p>Version Control/Work Flow: Git/Github</p>
-       <p>Design: Sketch, Marvel</p>
-     </div>
-   </div>
-
-
-   <div class= "card">
-     <div id="education">
-       <h4><u>Education</u></h4>
-       <div class="ed-linespace-1">
-         <h5>LE WAGON</h5>
-         <p>Web Development Immersive (2017)</p>
-       </div>
-       <br>
-       <div class="ed-linespace-1">
-         <h5>UNIVERSITY OF LONDON, SOAS</h5>
-         <p>M.A Near and Middle Eastern Studies (2015)</p>
-         <p>Merit Scholar</p>
-       </div>
-       <br>
-       <div class="ed-linespace-1">
-         <h5>UNIVERSITY OF FLORIDA</h5>
-         <p>B.A Linguistics, Arabic Language and Literature (2013)</p>
-         <p>Magna Cum Laude, GPA 3.9</p>
-         <p>Study Abroad: Fez, Morocco (Intensive Arabic Language), Irbid, Jordan (Intensive Arabic Language)</p>
-       </div>
-     </div>
+   <div class="card">
+    <div id="skills">
+     <h4><u>Skills</u></h4>
+     <p>Languages: Ruby, Javascript, HTML5, CSS/SCSS</p>
+     <p>Frameworks: Rails</p>
+     <p>Libraries: jQuery/AJAX, Bootstrap</p>
+     <p>Databases: Postgre SQL, ActiveRecord</p>
+     <p>Version Control/Work Flow: Git/Github</p>
+     <p>Design: Sketch, Marvel</p>
    </div>
  </div>
+
+ <div class="card">
+  <div id="projects">
+   <h4><u>Projects</u></h4>
+   <h5>get.inked</h5>
+   <p>get.inked is a team-built, fullstack, 11-model Ruby on Rails app using HTML, CSS/SCSS, Javascript, jQuery, Bootstrap, OmniAuth, Instagram API, and Action Cable. Deployed via Heroku.</p>
+   <p>It is a mobile-first application that acts as a platform for tattoo artists to share their work by signing up with Instagram and selecting which photos they would like to add to their profile, as well as setting their availability. On the other side of the coin, get.inked allows for tattoo seekers to browse both work and artists based on location and style, book an appointment, message with the artist, pay a deposit once the appointment has been confirmed, and review their artist.</p>
+   <p>One of the biggest challenges during this project was working with the Instagram API. We encountered a lot of difficulty with the access token and allowing multiple users to sign in with Instagram. Given that it is an 11-model app, developing the schema and establishing associations was also a challenging part of the process. We often found ourselves migrating to add or remove columns from tables as we went along. </p>
+   <div class="text-center">
+    <img src="images/code_snippet1.jpeg" class="code-snippet" alt="">
+   </div>
+  <div class="text-center">
+    <img src="images/code_snippet2.jpeg" class="code-snippet2" alt="">
+  </div>
+  <div class="text-center">
+  <a href="http://www.getinked.co/" >www.getinked.co</a>
+  </div>
+  <p>*As we are still in the process of making the app responsive, it is best experienced when inspected and viewed in iPhone 6 plus format. Moreover, as a result of Instagram API restrictions, it is not possible at this time to sign up with an Instagram account that has not been authorized in the development process.</p>
+ </div>
+</div>
+
+<div class= "card">
+ <div id="education">
+   <h4><u>Education</u></h4>
+   <div class="ed-linespace-1">
+     <h5>LE WAGON</h5>
+     <p>Web Development Immersive (2017)</p>
+   </div>
+   <br>
+   <div class="ed-linespace-1">
+     <h5>UNIVERSITY OF LONDON, SOAS</h5>
+     <p>M.A Near and Middle Eastern Studies (2015)</p>
+     <p>Merit Scholar</p>
+   </div>
+   <br>
+   <div class="ed-linespace-1">
+     <h5>UNIVERSITY OF FLORIDA</h5>
+     <p>B.A Linguistics, Arabic Language and Literature (2013)</p>
+     <p>Magna Cum Laude, GPA 3.9</p>
+     <p>Study Abroad: Fez, Morocco (Intensive Arabic Language), Irbid, Jordan (Intensive Arabic Language)</p>
+   </div>
+ </div>
+</div>
+
+
+</div>
 
 
 </body>

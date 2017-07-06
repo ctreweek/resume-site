@@ -28,6 +28,7 @@ body{
 
 .avatar {
   border-radius: 50%;
+  border: 5px solid #EDEFF0;
   height: 200px;
   width: 200px;
   position: absolute;
@@ -72,6 +73,11 @@ body{
 
 }
 
+.navigation li a:visited {
+  color: #337ab7;
+
+}
+
 
 .card {
     background: white;
@@ -92,6 +98,22 @@ body{
     font-weight: 700;
   }
 
+  #projects h5 {
+    font-weight: 700;
+  }
+
   .ed-linespace-1{
     line-height: 1;
   }
+
+.code-snippet{
+  height: 350px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.code-snippet2{
+  height: 150px;
+  width: 400px;
+  margin-bottom: 20px;
+}
