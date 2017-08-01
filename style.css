@@ -65,7 +65,7 @@ body{
 }
 
 .navigation {
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .navigation li a {
@@ -116,4 +116,9 @@ body{
   height: 150px;
   width: 400px;
   margin-bottom: 20px;
+}
+
+.email {
+  margin-top: 65px;
+  margin-bottom: 5px;
 }
